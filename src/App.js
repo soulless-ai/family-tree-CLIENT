@@ -17,7 +17,6 @@ function App() {
     console.log('Edited member:', editedMember);
   };
 
-  // Функция для добавления нового члена семьи
   const handleAddMember = (newMember) => {
     console.log('Adding member:', newMember);
   };

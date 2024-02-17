@@ -1,0 +1,40 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 100px auto; /* Center the container horizontally and add vertical margin */
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .auth-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .auth-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-container label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .auth-container input[type="text"],
+  .auth-container input[type="password"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .auth-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
